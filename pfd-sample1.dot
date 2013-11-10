@@ -1,0 +1,13 @@
+digraph G {
+
+    node [fontname="MS UI Gothic", style = filled];
+    node [shape = oval, color = yellow];
+    pa1_101 [label = "〈pa1_101/要件定義〉"];
+
+    node [shape = box, color = cyan];
+    ma1_101 [label = "《ma1_101/ロジック仕様書》"];
+    ma1_102 [label = "《ma1_102/要件定義書》"];
+
+    ma1_101 -> pa1_101 -> ma1_102;
+
+}
